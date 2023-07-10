@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+}
+
+.head{
+    margin-top: 3vmax;
+    font-size: 3vmax;
+    font-family: "Roboto";
+    letter-spacing: 0.5vmax;
+    margin-left: 8vmax;
+    margin-bottom: 4vmax;
+}
+
+.box{
+    width: 20vw;
+    height: 20vh;
+   box-shadow: 0 0 5px rgb(232, 113, 33);
+    padding: 2vmax;
+    display: inline-block;
+    margin-top: 2vmax;
+    margin-left: 4vmax;
+    /* background-color: rgb(106, 109, 109); */
+    border-radius: 5px;
+    font-family: 'Roboto light';
+    background-image: url(https://images.unsplash.com/photo-1640346876447-ec22e2030d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: left;
+    
+    
+}
+.box h1{
+    letter-spacing: 0.1vmin;
+    font-size: 1.5vmax;
+    color: white;
+    color: rgb(226, 198, 178);
+}
+.box h3{
+    color: rgb(155, 147, 147);
+    margin-top: 0.2vmax;
+}
+.add{
+    margin-top: 7vmax;
+    font-size: 1.3vmax;
+    margin-left: 43vmax;
+    font-family: "Roboto";
+    text-decoration: none;
+    color:white ;
+    padding: 0.8vmax 3vmax;
+    border-radius: 4px;
+    font-family: "Roboto light";
+    background-color:rgb(232, 113, 33) ;
+}
+.add-head{
+    margin-top: 6vmax;
+}
+
+.info-Box{
+    width: 30vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 5vmax;
+    border: 1px solid rgb(232, 113, 33);
+    
+    border-radius: 20px;
+    padding-top: 2vmax;
+
+}
+.detail-Head{
+    padding-top: 1vmax;
+    padding-left: 4vmax;
+    font-size: 2.5vmax;
+    letter-spacing: 0.4vmax;
+   
+}
+
+form{
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 15vw;
+    height: 2.1vmax;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgb(232, 113, 33);
+    border: none;
+    padding-left: 2vmax;
+    border: 1px solid rgb(232, 113, 33);
+    margin: auto;
+    margin-top: 3vmax;
+    
+}
+form button{
+    margin-top: 3vmax;
+    height: 2.5vmax;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto light';
+    font-size: 1.4vmax;
+    color: white;
+    background-color: rgb(231, 142, 83);
+    width: 20vw;
+    margin: auto;
+    margin-top: 5vmax;
+}
